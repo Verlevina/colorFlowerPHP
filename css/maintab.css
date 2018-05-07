@@ -6,7 +6,6 @@ h3{
 p{color:#3b6cf2;
     margin:30px 50px;
     line-height: 25px;
-
     }
 aside{
     float:left;
@@ -23,7 +22,6 @@ aside ul{
 aside li{
     list-style: none;
     color:#ff819d;
-
     text-align: center;
 }
 aside li a{
@@ -75,7 +73,15 @@ height: 30px;
 text-align: center;}
 td:first-child {
     width: 20px;}
+/*крусель*/
 
+#carouselContainer123{
+    height:190px!important;
+    overflow:hidden;
+}
+.owl-carousel .item{
+    display: block;
+}
 
 @media (max-width: 600px) {
     aside{

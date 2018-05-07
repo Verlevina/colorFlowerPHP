@@ -39,6 +39,7 @@ body {
     max-width: 970px;
     min-height: 700px;
     flex: 1 0 auto;
+    width: 100%;
 }
 
 
@@ -184,29 +185,29 @@ nav>ul>li:nth-of-type(7n+7){
 }
 nav a:hover{
     background-color:rgba(255,255,255,0.5);
+    transition: 1s;
+    box-shadow: rgb(4, 156, 2) 0px 0px 32px;
 }
 
-.navHidden{
+.navHidden {
     display: none;
     color: #0088cc;
-    border-radius:10px 0  10px 0;
-    padding:10px;
-    position:fixed;
-    margin:5px;
-    top:0;
-    right:0;
+    border-radius: 10px 0 10px 0;
+    padding: 10px;
+    position: fixed;
+    margin: 5px;
+    top: 0;
+    right: 0;
     width: 20px;
     height: 20px;
     background: #e2b1d7; /* Old Browsers */
-    background: -webkit-radial-gradient(bottom,#e2b1d7,#b163a0); /*Safari 5.1-6*/
-    background: -o-radial-gradient(bottom,#e2b1d7,#b163a0); /*Opera 11.1-12*/
-    background: -moz-radial-gradient(bottom,#e2b1d7,#b163a0); /*Fx 3.6-15*/
-    background: radial-gradient(to top, #e2b1d7, #b163a0); /
-text-align: center;
+    background: -webkit-radial-gradient(bottom, #e2b1d7, #b163a0); /*Safari 5.1-6*/
+    background: -o-radial-gradient(bottom, #e2b1d7, #b163a0); /*Opera 11.1-12*/
+    background: -moz-radial-gradient(bottom, #e2b1d7, #b163a0); /*Fx 3.6-15*/
+    background: radial-gradient(to top, #e2b1d7, #b163a0);
+    text-align: center;
     vertical-align: middle;
 }
-
-
 /*ВКЛадки*/
 
 .contentBox{
@@ -471,7 +472,7 @@ footer .social>p{
 @media (max-width: 450px) {
     .container{
 
-        width: auto;
+        width: 100%;
     }
     .footerContainer{
         width: 280px;

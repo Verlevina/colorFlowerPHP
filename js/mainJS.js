@@ -6,5 +6,21 @@ var navHidden=document.getElementsByClassName('navHidden')[0];
 
         }
     );
+    //карусель
+
+
+
+    $(function() {
+
+        $(".owl-carousel").owlCarousel({
+            items:5,
+            loop:true,
+            margin:10,
+            autoplay:true,
+            mouseDrag:false,
+
+        });
+
+    });
 
 

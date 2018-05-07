@@ -3,14 +3,15 @@
     <h3>
         Где его взять?
     </h3>
-    <div class="slider">
 
-           <img class="carusel caruselNoVisible" src="../img/images/img1.jpg"/>
-           <img class="carusel caruselNoVisible"  src="../img/images/img2.jpg"/>
-          <img class="carusel caruselNoVisible" src="../img/images/img3.jpg"/>
-         <img class="carusel caruselNoVisible" src="../img/images/img4.jpg"/>
+<div  id="carouselContainer123">
+    <div class="owl-carousel">
+        <div class="item"><img src="../img/images/img1.jpg" alt=""></div>
+        <div class="item"><img src="../img/images/img3.jpg" alt=""></div>
+        <div class="item"><img src="../img/images/img4.jpg" alt=""></div>
 
     </div>
+</div>
     <p>
         Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации,
         например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам
