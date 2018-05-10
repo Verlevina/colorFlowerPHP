@@ -20,3 +20,6 @@
         one who avoids a pain that produces no resultant pleasure?"
 
     </p>
+    <div class="map">
+        <iframe src="https://yandex.ru/map-widget/v1/-/CBqfJLrO0A" frameborder="0"></iframe>
+    </div>

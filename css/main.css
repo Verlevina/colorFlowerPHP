@@ -88,7 +88,9 @@ display:inline-block;
     vertical-align:top;
     float:right;
 }
-
+section{
+    padding: 20px 20px;
+}
 header .contacts:after{
     display: table;
     content: '';
@@ -207,6 +209,7 @@ nav a:hover{
     background: radial-gradient(to top, #e2b1d7, #b163a0);
     text-align: center;
     vertical-align: middle;
+    z-index: 999;
 }
 /*ВКЛадки*/
 
@@ -243,8 +246,6 @@ footer{
     width:100%;
     background-color: #1b7c00;
     margin-top:50px;
-
-    flex: 0 0 auto;
     margin-bottom:0;
     padding-bottom:20px;
 
@@ -267,35 +268,16 @@ background:none;
     box-sizing: border-box;
     justify-content:space-around;
     flex-wrap:wrap;
-    align-content: stretch;
-
-
 }
 footer p{
     color:white;
-
-}
-section{
-    padding-bottom:20px;
 }
 
-footer .adress{
-margin-left:20px;
-    float:left;
-
-
+footer .adress p{
+    margin-left:0 ;
 }
-footer .contact{
-float:left;
 
-}
-footer .contact:after{
-    content: '';
-    clear: both;
-    display: table;
-}
 iframe{
-
     border-radius:20px;
 }
 footer .social>div{
@@ -326,6 +308,7 @@ footer .social>p{
     line-height: 30px;
     text-align: center;
 }
+
 @media (max-width: 1200px) {
     .wrap {
         background-size: 400px auto;
@@ -351,10 +334,8 @@ footer .social>p{
         background-size: 300px auto;
     }
 
-
     header {
         height: 130px;
-
     }
 
     header img {
@@ -425,12 +406,12 @@ footer .social>p{
         margin: 0;
     }
     .footerContainer{
-        width: 550px;
+        width: 100%;
     }
     .col{
         border-right: 0 !important;
         border-bottom: 1px solid white;
-        width:100%;
+        padding: 20px;
     }
 }
 
@@ -455,17 +436,8 @@ footer .social>p{
     header img{
         margin:0;
     }
-    .footerContainer{
-        width: 450px;
-    }
     header{
         margin-bottom:40px;
-    }
-
-    .col{
-        border-right: 0 !important;
-        border-bottom: 1px solid white;
-        width:100%;
     }
 }
 
@@ -474,19 +446,15 @@ footer .social>p{
 
         width: 100%;
     }
-    .footerContainer{
-        width: 280px;
-    }
+
     header{
         margin-bottom:40px;
     }
-    .col{
-        border-right: 0 !important;
-        border-bottom: 1px solid white;
-        width:100%;
-    }
     p{
         margin:0!important;
+    }
+    div.container{
+        margin-top:20px;
     }
     .contentBox{
         margin: 20px 10px;

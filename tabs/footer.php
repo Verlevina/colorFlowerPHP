@@ -23,9 +23,6 @@
             <div></div>
             <p>WApp</p><br>
         </div>
-        <div class="col">
-            <iframe src="https://yandex.ru/map-widget/v1/-/CBqfJLrO0A" width="250" height="200"
-                    frameborder="0"></iframe>
-        </div>
+
     </div>
 </footer>
