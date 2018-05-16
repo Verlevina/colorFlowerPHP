@@ -1,5 +1,4 @@
 
-
 html {
     background-color: #6cd202;
     line-height: 2.0;
@@ -32,6 +31,7 @@ body {
     font-family: Kid52; /* Гарнитура шрифта */
     src: url(../font/LA_TRUITE_A_PAPA.ttf); /* Путь к файлу со шрифтом */
 }
+
 .container {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
@@ -42,7 +42,6 @@ body {
     width: 100%;
 }
 
-
 header {
     padding: 10px;
     height: 200px;
@@ -51,7 +50,7 @@ header {
 header img {
     height: 100px;
     display: inline-block;
-   margin-top:20px;
+    margin-top: 20px;
     margin-left: 20px;
     line-height: 60%;
 
@@ -64,50 +63,63 @@ header img {
 
 }
 
-.siteName h1 {
-    font-family: Kid52 , 'Comic Sans MS', cursive;
+.siteName h1, .h1Span {
+    font-family: Kid52, 'Comic Sans MS', cursive;
     text-align: center;
-    color:#F27405;
-    padding:0;
+    color: #F27405;
+    padding: 0;
     margin: 0;
-
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 2.0;
 }
-.siteName h2 {
+
+.siteName h2, .h2Span {
     font-family: "Comic Sans MS", cursive;
     text-align: center;
     color: #3b6cf2;
-    padding:0;
-    margin:0;
-    margin-top:10%;
+    padding: 0;
+    margin: 0;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2.0;
 }
-header .contacts{
-display:inline-block;
-    text-align:right;
-    margin-right:20px;
-    margin-top:2%;
-    vertical-align:top;
-    float:right;
+
+header .contacts {
+    display: inline-block;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 2%;
+    vertical-align: top;
+    float: right;
 }
-section{
+
+section {
     padding: 20px 20px;
 }
-header .contacts:after{
+
+header .contacts:after {
     display: table;
     content: '';
-    clear:both;
+    clear: both;
 }
-header .contacts a{
-text-decoration:none;
-    color:#3b6cf2;
+
+header .contacts a {
+    text-decoration: none;
+    color: #3b6cf2;
 
 }
-header .contacts a:hover{
-color:red;
+
+header .contacts a:hover {
+    color: red;
 }
-header .contacts p{
-padding:0;
-    margin:0;
+
+header .contacts p {
+    padding: 0;
+    margin: 0;
 }
+
 nav {
     margin: 0;
     padding: 10px 15px;
@@ -117,76 +129,85 @@ nav {
 
 }
 
-nav li:last-child{
-margin-right:0;}
-
-nav li{
-    list-style:none;
-    margin-right:20px;
-    border-radius:10px 0  10px 0;
-    margin-top:10px;
-    display:inline-block;
+nav li:last-child {
+    margin-right: 0;
 }
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    border-radius: 10px 0 10px 0;
+    margin-top: 10px;
+    display: inline-block;
+}
+
 nav a {
     text-align: center;
-    display:block;
+    display: block;
     color: #0088cc;
-    text-decoration:none;
-    border-radius:10px 0  10px 0;
-    padding:10px;
+    text-decoration: none;
+    border-radius: 10px 0 10px 0;
+    padding: 10px;
 }
 
-nav>ul>li:nth-of-type(7n+1){
+nav > ul > li:nth-of-type(7n+1) {
     background: #e2b1d7; /* Old Browsers */
-    background: -webkit-radial-gradient(bottom,#e2b1d7,#b163a0); /*Safari 5.1-6*/
-    background: -o-radial-gradient(bottom,#e2b1d7,#b163a0); /*Opera 11.1-12*/
-    background: -moz-radial-gradient(bottom,#e2b1d7,#b163a0); /*Fx 3.6-15*/
+    background: -webkit-radial-gradient(bottom, #e2b1d7, #b163a0); /*Safari 5.1-6*/
+    background: -o-radial-gradient(bottom, #e2b1d7, #b163a0); /*Opera 11.1-12*/
+    background: -moz-radial-gradient(bottom, #e2b1d7, #b163a0); /*Fx 3.6-15*/
     background: radial-gradient(to top, #e2b1d7, #b163a0); /*Standard*/
 }
-nav>ul>li:nth-of-type(7n+2){
+
+nav > ul > li:nth-of-type(7n+2) {
     background: #ffa459; /* Old Browsers */
-    background: -webkit-radial-gradient(bottom,#ffa459,#fd6a09); /*Safari 5.1-6*/
-    background: -o-radial-gradient(bottom,#ffa459,#fd6a09); /*Opera 11.1-12*/
-    background: -moz-radial-gradient(bottom,#ffa459,#fd6a09); /*Fx 3.6-15*/
+    background: -webkit-radial-gradient(bottom, #ffa459, #fd6a09); /*Safari 5.1-6*/
+    background: -o-radial-gradient(bottom, #ffa459, #fd6a09); /*Opera 11.1-12*/
+    background: -moz-radial-gradient(bottom, #ffa459, #fd6a09); /*Fx 3.6-15*/
     background: radial-gradient(to top, #ffa459, #fd6a09); /*Standard*/
 }
-nav>ul>li:nth-of-type(7n+3){
+
+nav > ul > li:nth-of-type(7n+3) {
     background: #3adcb9; /* Old Browsers */
-    background: -webkit-radial-gradient(bottom,#3adcb9,#00b588); /*Safari 5.1-6*/
-    background: -o-radial-gradient(bottom,#3adcb9,#00b588); /*Opera 11.1-12*/
-    background: -moz-radial-gradient(bottom,#3adcb9,#00b588); /*Fx 3.6-15*/
+    background: -webkit-radial-gradient(bottom, #3adcb9, #00b588); /*Safari 5.1-6*/
+    background: -o-radial-gradient(bottom, #3adcb9, #00b588); /*Opera 11.1-12*/
+    background: -moz-radial-gradient(bottom, #3adcb9, #00b588); /*Fx 3.6-15*/
     background: radial-gradient(to top, #3adcb9, #00b588); /*Standard*/
 }
-nav>ul>li:nth-of-type(7n+4){
+
+nav > ul > li:nth-of-type(7n+4) {
     background: #ffbac9; /* Old Browsers */
-    background: -webkit-radial-gradient(bottom,#ffbac9,#ff819d); /*Safari 5.1-6*/
-    background: -o-radial-gradient(bottom,#ffbac9,#ff819d); /*Opera 11.1-12*/
-    background: -moz-radial-gradient(bottom,#ffbac9,#ff819d); /*Fx 3.6-15*/
+    background: -webkit-radial-gradient(bottom, #ffbac9, #ff819d); /*Safari 5.1-6*/
+    background: -o-radial-gradient(bottom, #ffbac9, #ff819d); /*Opera 11.1-12*/
+    background: -moz-radial-gradient(bottom, #ffbac9, #ff819d); /*Fx 3.6-15*/
     background: radial-gradient(to top, #ffbac9, #ff819d); /*Standard*/
 }
-nav>ul>li:nth-of-type(7n+5){
+
+nav > ul > li:nth-of-type(7n+5) {
     background: #3adbe9; /* Old Browsers */
-    background: -webkit-radial-gradient(bottom,#3adbe9,#00a4b5); /*Safari 5.1-6*/
-    background: -o-radial-gradient(bottom,#3adbe9,#00a4b5); /*Opera 11.1-12*/
-    background: -moz-radial-gradient(bottom,#3adbe9,#00a4b5); /*Fx 3.6-15*/
+    background: -webkit-radial-gradient(bottom, #3adbe9, #00a4b5); /*Safari 5.1-6*/
+    background: -o-radial-gradient(bottom, #3adbe9, #00a4b5); /*Opera 11.1-12*/
+    background: -moz-radial-gradient(bottom, #3adbe9, #00a4b5); /*Fx 3.6-15*/
     background: radial-gradient(to top, #3adbe9, #00a4b5); /*Standard*/
 }
-nav>ul>li:nth-of-type(7n+6){
+
+nav > ul > li:nth-of-type(7n+6) {
     background: #ffa780; /* Old Browsers */
-    background: -webkit-radial-gradient(bottom,#ffa780,#ff7e45); /*Safari 5.1-6*/
-    background: -o-radial-gradient(bottom,#ffa780,#ff7e45); /*Opera 11.1-12*/
-    background: -moz-radial-gradient(bottom,#ffa780,#ff7e45); /*Fx 3.6-15*/
+    background: -webkit-radial-gradient(bottom, #ffa780, #ff7e45); /*Safari 5.1-6*/
+    background: -o-radial-gradient(bottom, #ffa780, #ff7e45); /*Opera 11.1-12*/
+    background: -moz-radial-gradient(bottom, #ffa780, #ff7e45); /*Fx 3.6-15*/
     background: radial-gradient(to top, #ffa780, #ff7e45); /*Standard*/
 }
-nav>ul>li:nth-of-type(7n+7){
+
+nav > ul > li:nth-of-type(7n+7) {
     background: #ff7d9f; /* Old Browsers */
-    background: -webkit-radial-gradient(bottom,#ff7d9f,#ff4373); /*Safari 5.1-6*/
-    background: -o-radial-gradient(bottom,#ff7d9f,#ff4373); /*Opera 11.1-12*/
-    background: -moz-radial-gradient(bottom,#ff7d9f,#ff4373); /*Fx 3.6-15*/
+    background: -webkit-radial-gradient(bottom, #ff7d9f, #ff4373); /*Safari 5.1-6*/
+    background: -o-radial-gradient(bottom, #ff7d9f, #ff4373); /*Opera 11.1-12*/
+    background: -moz-radial-gradient(bottom, #ff7d9f, #ff4373); /*Fx 3.6-15*/
     background: radial-gradient(to top, #ff7d9f, #ff4373); /*Standard*/
 }
-nav a:hover{
-    background-color:rgba(255,255,255,0.5);
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
     transition: 1s;
     box-shadow: rgb(4, 156, 2) 0px 0px 32px;
 }
@@ -211,97 +232,108 @@ nav a:hover{
     vertical-align: middle;
     z-index: 999;
 }
+
 /*ВКЛадки*/
 
-.contentBox{
-margin:20px 30px;
+.contentBox {
+    margin: 20px 30px;
 }
-.contentBox:after{
-    clear:both;
+
+.contentBox:after {
+    clear: both;
     display: table;
     content: '';
 }
-section:after{
-clear:both;
+
+section:after {
+    clear: both;
     display: table;
     content: '';
 }
-.slider{
+
+.slider {
     margin: auto;
     width: 640px;
 }
-.unvisible{
-display: none;
+
+.unvisible {
+    display: none;
 }
 
 .visible {
     display: block; /* по умолчанию показываем нужный блок */
 }
 
-.active{
+.active {
     border: 2px solid #1b7c00;
 }
 
-footer{
-    width:100%;
+footer {
+    width: 100%;
     background-color: #1b7c00;
-    margin-top:50px;
-    margin-bottom:0;
-    padding-bottom:20px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
 
 }
-footer .grass{
-width:100%;
+
+footer .grass {
+    width: 100%;
     height: 40px;
-    background-image:url(../img/grass.png);
+    background-image: url(../img/grass.png);
     background-size: auto 40px;
-    background-repeat: repeat-x ;
-    position:relative;
-    bottom:35px;
+    background-repeat: repeat-x;
+    position: relative;
+    bottom: 35px;
 }
-.footerContainer{
-background:none;
+
+.footerContainer {
+    background: none;
     max-width: 970px;
     margin: auto;
-    color:white;
-    display:flex;
+    color: white;
+    display: flex;
     box-sizing: border-box;
-    justify-content:space-around;
-    flex-wrap:wrap;
-}
-footer p{
-    color:white;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-footer .adress p{
-    margin-left:0 ;
+footer p {
+    color: white;
 }
 
-iframe{
-    border-radius:20px;
+footer .adress p {
+    margin-left: 0;
 }
-footer .social>div{
+
+iframe {
+    border-radius: 20px;
+}
+
+footer .social > div {
     display: inline-block;
     position: relative;
-    left:30px;
-    top:10px;
+    left: 30px;
+    top: 10px;
     height: 35px;
     width: 35px;
-    background-image:url('../img/social.png') ;
+    background-image: url('../img/social.png');
     background-repeat: no-repeat;
 }
-footer .social div:first-child{
-background-position: -264px -157px;
+
+footer .social div:first-child {
+    background-position: -264px -157px;
 }
 
 footer .social div:nth-of-type(2) {
     background-position: -144px -286px;
 }
 
-footer .social div:nth-of-type(3){
-     background-position: -344px -285px;
- }
-footer .social>p{
+footer .social div:nth-of-type(3) {
+    background-position: -344px -285px;
+}
+
+footer .social > p {
     padding-left: 40px;
     display: inline-block;
     margin: 10px;
@@ -314,8 +346,6 @@ footer .social>p{
         background-size: 400px auto;
     }
 
-
-
     header {
         height: 200px;
     }
@@ -325,10 +355,12 @@ footer .social>p{
 
         vertical-align: top;
     }
-    .footerContainer{
+
+    .footerContainer {
         width: 970px;
     }
 }
+
 @media (max-width: 992px) {
     .wrap {
         background-size: 300px auto;
@@ -342,47 +374,54 @@ footer .social>p{
         height: 100px;
         vertical-align: top;
     }
-    .footerContainer{
+
+    .footerContainer {
         width: 760px;
     }
 }
+
 @media (max-width: 820px) {
     .wrap {
         background-size: 250px auto;
 
     }
-    .navHidden{
-        display: block;}
-    .navHidden:hover{
+
+    .navHidden {
+        display: block;
+    }
+
+    .navHidden:hover {
         background: #ff7d9f; /* Old Browsers */
-        background: -webkit-radial-gradient(bottom,#ff7d9f,#ff4373); /*Safari 5.1-6*/
-        background: -o-radial-gradient(bottom,#ff7d9f,#ff4373); /*Opera 11.1-12*/
-        background: -moz-radial-gradient(bottom,#ff7d9f,#ff4373); /*Fx 3.6-15*/
+        background: -webkit-radial-gradient(bottom, #ff7d9f, #ff4373); /*Safari 5.1-6*/
+        background: -o-radial-gradient(bottom, #ff7d9f, #ff4373); /*Opera 11.1-12*/
+        background: -moz-radial-gradient(bottom, #ff7d9f, #ff4373); /*Fx 3.6-15*/
         background: radial-gradient(to top, #ff7d9f, #ff4373); /*Standard*/
     }
 
-.navHidden:active {
-    background: #ffa780; /* Old Browsers */
-    background: -webkit-radial-gradient(bottom, #ffa780, #ff7e45); /*Safari 5.1-6*/
-    background: -o-radial-gradient(bottom, #ffa780, #ff7e45); /*Opera 11.1-12*/
-    background: -moz-radial-gradient(bottom, #ffa780, #ff7e45); /*Fx 3.6-15*/
-    background: radial-gradient(to top, #ffa780, #ff7e45); /*Standard*/
-}
-
-    nav{
-        position:fixed;
-        top:40px;
-        right:-20px;
-        display:none;
-        z-index:999;
+    .navHidden:active {
+        background: #ffa780; /* Old Browsers */
+        background: -webkit-radial-gradient(bottom, #ffa780, #ff7e45); /*Safari 5.1-6*/
+        background: -o-radial-gradient(bottom, #ffa780, #ff7e45); /*Opera 11.1-12*/
+        background: -moz-radial-gradient(bottom, #ffa780, #ff7e45); /*Fx 3.6-15*/
+        background: radial-gradient(to top, #ffa780, #ff7e45); /*Standard*/
     }
 
-    nav li{
-        display:block;
+    nav {
+        position: fixed;
+        top: 40px;
+        right: -20px;
+        display: none;
+        z-index: 999;
     }
-    nav li:last-child{
+
+    nav li {
+        display: block;
+    }
+
+    nav li:last-child {
         margin-right: 20px;
     }
+
     header {
         height: 110px;
 
@@ -394,21 +433,23 @@ footer .social>p{
         vertical-align: top;
     }
 
-    .siteName h2 {
+    .siteName h2, .h2Span {
         margin: 0;
     }
 
-    .siteName h1 {
+    .siteName h1, .h1Span {
         margin: 0;
     }
 
     header img {
         margin: 0;
     }
-    .footerContainer{
+
+    .footerContainer {
         width: 100%;
     }
-    .col{
+
+    .col {
         border-right: 0 !important;
         border-bottom: 1px solid white;
         padding: 20px;
@@ -417,46 +458,53 @@ footer .social>p{
 
 @media (max-width: 600px) {
 
-    header{
-        height:90px;
+    header {
+        height: 90px;
     }
 
-    header .contacts{
-        display:none;
+    header .contacts {
+        display: none;
     }
-    .siteName h2{
-        margin:0;
-        font-size:16px;
-    }
-    .siteName h1{
-        margin:0;
 
-        font-size:24px
+    .siteName h2, .h2Span {
+        margin: 0;
+        font-size: 16px;
     }
-    header img{
-        margin:0;
+
+    .siteName h1, .h1Span {
+        margin: 0;
+
+        font-size: 24px
     }
-    header{
-        margin-bottom:40px;
+
+    header img {
+        margin: 0;
+    }
+
+    header {
+        margin-bottom: 40px;
     }
 }
 
 @media (max-width: 450px) {
-    .container{
+    .container {
 
         width: 100%;
     }
 
-    header{
-        margin-bottom:40px;
+    header {
+        margin-bottom: 40px;
     }
-    p{
-        margin:0!important;
+
+    p {
+        margin: 0 !important;
     }
-    div.container{
-        margin-top:20px;
+
+    div.container {
+        margin-top: 20px;
     }
-    .contentBox{
+
+    .contentBox {
         margin: 20px 10px;
     }
 }

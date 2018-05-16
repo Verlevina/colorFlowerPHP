@@ -22,5 +22,10 @@ var navHidden=document.getElementsByClassName('navHidden')[0];
         });
 
     });
-
+function active(page) {
+   var active= document.getElementsByClassName('active')[0];
+    if(active){
+   active.classList.remove('active');}
+    document.getElementsByClassName('tabSelect')[page].classList.add('active');
+}
 

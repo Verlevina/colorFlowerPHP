@@ -1,3 +1,5 @@
+</div>
+</div>
 <footer>
 
     <div class="grass"></div>
@@ -11,8 +13,8 @@
 
 
         <div class="contact col">
-            <p>tel:08978686</p>
-            <p>e-mail:example@example.ru</p>
+            <p>tel: 08978686</p>
+            <p>e-mail: example@example.ru</p>
             <p>WApp: 0989879878</p>
         </div>
         <div class="social col">
@@ -26,3 +28,6 @@
 
     </div>
 </footer>
+<script src="../js/mainJS.js"></script>
+</body>
+</html>
